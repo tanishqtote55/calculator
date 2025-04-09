@@ -33,8 +33,6 @@ int main() {
         case '^':
             printf("%.2lf ^ %.2lf = %.2lf\n", num1, num2, pow(num1, num2));
             break;
-        default:
-            printf("Error: Unsupported operator.\n");
     }
 
     return 0;
