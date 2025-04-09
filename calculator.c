@@ -1,5 +1,3 @@
-// calculator.c (Decimal calculator with exponentiation)
-
 #include <stdio.h>
 #include <math.h>
 
