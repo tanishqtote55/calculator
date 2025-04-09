@@ -5,7 +5,7 @@
 
 int main() {
     double num1, num2;
-    char operator;
+    char op;
 
     printf("Enter first operand: ");
     scanf("%lf", &num1);
@@ -14,7 +14,7 @@ int main() {
     printf("Enter second operand: ");
     scanf("%lf", &num2);
 
-    switch (operator) {
+    switch (op) {
         case '+':
             printf("%.2lf + %.2lf = %.2lf\n", num1, num2, num1 + num2);
             break;
